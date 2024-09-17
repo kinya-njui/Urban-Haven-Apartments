@@ -58,16 +58,31 @@ nav ol{
   padding: 1.2rem;
 }
 .hero-section{
-  height: 70rem; /* Full screen height */
+  height: 65rem; /* Full screen height */
     background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),  url('assets/Background\ image.webp');
     background-size: cover;
     background-position: center;
     display: flex;
+    text-align: justify;
     justify-content: center;
     align-items: center;
     text-align: center;
     text-transform: capitalize;
     color: white;
+    padding: 15
+rem;
+}
+
+.hero-title{
+  padding: 3.5rem;
+  size: 2rem;
+}
+.hero-link{
+text-decoration: none;
+text-align: justify;
+color: #e9e9e9;
+background-color: #522583;
+padding: .8rem;
 }
 /* start of about styling */
 .about-us-section h2{
@@ -78,15 +93,19 @@ nav ol{
 .about-container{
   display: flex;
   width: 100%;
-  padding: 2rem 3rem;
+  padding: 5rem;
   align-items: center;
 }
 h2{
+  text-align: justify;
+  text-align: center;
   text-transform: capitalize;
 }
 .about-text{
   width: 50%;
+  font-size: 2rem;
   padding-right: 3rem;
+  text-align: justify;
 }
 .about-text p{
   width: 100%;
